@@ -116,7 +116,7 @@ _초기화를 하면 상단에 (main)이 생긴것을 확인 할 수 있다. mai
 
 <br >
 
-✔ `git push origin +main` <br />
+✔ `git push origin +main` 
 
 ![image](https://github.com/future9061/git-github/assets/132829711/420d66d8-250d-48e8-bc77-aa728f9a4ac6) <br />
 첫 push시에는 원격 저장소와 로컬 저장소가 관련이 없다고 생각한 git이 push를 거부한다.<br /> 때문에 +main으로 강제로 push를 해야한다.
@@ -144,23 +144,23 @@ _main 브랜치는 건드려서는 안되고 develop 브랜치를 가져와 feat
 
 <br>
 
-✔ `git pull origin develop`  <br />
+✔ `git pull origin develop`
 
 ![image](https://github.com/future9061/git-github/assets/132829711/106a5ae3-2b1c-4b0b-a112-12971c6bd742) <br />
 develop 브랜치를 가져왔다. <br >
 상단에 (develop)가 아니고 (main)이라면 `git checkout develop`로 브랜치를 이동해야한다.
 
-✔ `git branch feature`  <br />
+✔ `git branch feature`  
 
 ![image](https://github.com/future9061/git-github/assets/132829711/efbe3abe-3fe6-4c41-ae1a-4d52ed50cc10) <br />
 feature 브랜치를 만들었다. 현재 로컬에 main, branch, feature 세 개의 브랜치가 존재한다.
 
-✔ `git checkout feature`  <br />
+✔ `git checkout feature` 
 
 ![image](https://github.com/future9061/git-github/assets/132829711/9cff3c83-5e90-47d5-b949-8f35de4fd09f) <br />
 feature 브랜치로 이동 후 코드를 작성한다.
 
-✔ `git push origin feature`  <br />
+✔ `git push origin feature` 
 
 ![image](https://github.com/future9061/git-github/assets/132829711/ecf8f3c4-f3a0-442a-9563-23be44cb3f00) <br />
 
