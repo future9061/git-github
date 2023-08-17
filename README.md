@@ -116,7 +116,7 @@ _초기화를 하면 상단에 (main)이 생긴것을 확인 할 수 있다. mai
 
 <br >
 
-✔ `git push origin +main`
+✔ `git push origin +main` <br />
 ![image](https://github.com/future9061/git-github/assets/132829711/420d66d8-250d-48e8-bc77-aa728f9a4ac6) <br />
 첫 push시에는 원격 저장소와 로컬 저장소가 관련이 없다고 생각한 git이 push를 거부한다.<br /> 때문에 +main으로 강제로 push를 해야한다.
 
@@ -139,11 +139,11 @@ _원격 레포지토리에 잘 올라갔다!_
 이제 팀 프로젝트를 시작했다는 가정 하에 원격 레포지토리를 가져와서 내 작업 브랜치를 만들어 작업을 해보겠다.
 
 ![image](https://github.com/future9061/git-github/assets/132829711/6f8eea86-8668-451d-96ba-2ae2bbb00907) <br>
-_main 브랜치는 건드려서는 안되고 develop 브랜치를 가져와 feature를 만들어서 코드를 작성해야 한다._
+_main 브랜치는 건드려서는 안되고 develop 브랜치를 가져와 feature를 만들어서 코드를 작성해야 한다._  
 
 <br>
 
-✔ `git pull origin develop`
+✔ `git pull origin develop`  <br />
 ![image](https://github.com/future9061/git-github/assets/132829711/106a5ae3-2b1c-4b0b-a112-12971c6bd742) <br />
 develop 브랜치를 가져왔다. <br >
 상단에 (develop)가 아니고 (main)이라면 `git checkout develop`로 브랜치를 이동해야한다.
